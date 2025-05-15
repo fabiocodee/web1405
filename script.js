@@ -21,3 +21,9 @@ let imc = peso / (altura * altura)
 
 window.alert ("Seu IMC é" + imc.toFixed(2))
 }
+function alternarTemas(){
+    const corpo = document.body; // corpo html
+    corpo.classList.toggle("escuro")
+    corpo.classList.toggle("claro")
+    
+}

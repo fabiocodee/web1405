@@ -17,3 +17,16 @@ form {
 label{
     width: 160px;
 }
+span{
+    font-size: 0.9em;
+    color: black
+
+}
+.claro{
+    background-color:#fff;
+    color: black;
+}
+.escuro{
+    background-color: black;
+    color: white;
+}
